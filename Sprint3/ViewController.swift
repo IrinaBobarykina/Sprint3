@@ -17,12 +17,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        counterLabel.text = "Значение счётчика: \(count)"
-        
     }
     
     @IBAction func clickCounterButton(_ sender: Any) {
-
+        
         count += 1
         counterLabel.text = "Значение счётчика: \(count)"
     }
